@@ -9,9 +9,9 @@
     "serve": "parcel serve ./public/index.html"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-svelte": "^4.0.6",
-    "svelte": "^3.24.1"
+    "parcel-bundler": "1.12.4",
+    "parcel-plugin-svelte": "4.0.6",
+    "svelte": "3.24.1"
   },
   "browserslist": [
     "last 2 Chrome versions"
