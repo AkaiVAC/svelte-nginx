@@ -3,11 +3,9 @@
     "config:base"
   ],
    "packageRules": [
-    {
-      "updateTypes": [
-        "minor",
-        "patch"
-      ],
+    {      
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true
     }
   ]
